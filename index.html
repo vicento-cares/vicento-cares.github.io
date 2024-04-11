@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Vince Dale" />
+  <meta name="keywords" content="Vince Dale, Software Developer, Web Developer, Programmer, Portfolio" />
+  <title>Vince Dale | Portfolio</title>
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="dist/css/font.min.css">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <!-- AOS -->
+  <link rel="stylesheet" href="plugins/aos/css/aos.min.css">
+  <style>
+    body {
+      overflow-x: hidden;
+    }
+    
+    h3[id]::before {
+      display: block;
+      height: 6rem;
+      margin-top: -6rem;
+      visibility: hidden;
+      content: "";
+    }
+
+    .masthead {
+      /* The image used */
+      background-image: url("dist/img/creative-flat-lay-photo-workspace-desk.webp");
+
+      /* Set a specific height */
+      min-height: 100vh;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      padding-top: calc(20rem + 74px);
+      padding-bottom: 20rem;
+    }
+    .masthead .masthead-heading {
+      font-size: 2.75rem;
+      line-height: 2.75rem;
+    }
+    .masthead .masthead-subheading {
+      font-size: 1.25rem;
+    }
+    .masthead .masthead-avatar {
+      width: 15rem;
+    }
+    
+    @media (min-width: 992px) {
+      .masthead {
+        padding-top: calc(20rem + 104px);
+        padding-bottom: 20rem;
+        /* background-attachment: scroll; */
+      }
+      .masthead .masthead-heading {
+        font-size: 4rem;
+        line-height: 3.5rem;
+      }
+      .masthead .masthead-subheading {
+        font-size: 1.5rem;
+      }
+    }
+
+    .projects {
+      /* The image used */
+      background-image: url("dist/img/4915751-vanilla.webp");
+
+      /* Set a specific height */
+      min-height: 100vh;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .main-footer {
+      border-top: 1px solid #4b545c;
+      color: rgba(255, 255, 255, 0.8);
+    }
+  </style>
+</head>
+<body class="hold-transition layout-top-nav layout-navbar-fixed layout-footer-fixed accent-custom-color-4">
+<div class="wrapper">
+
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand-md navbar-dark navbar-custom-color-3 border-bottom-0 p-4">
+    <div class="container">
+      <a href="#home" class="navbar-brand">
+        <span class="brand-text font-weight-bold">Vince Dale</span>
+      </a>
+
+      <button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse order-3" id="navbarCollapse">
+        <!-- Left navbar links -->
+        <ul class="navbar-nav">
+          <li class="nav-item" data-aos="fade-zoom-in" data-aos-offset="0" data-aos-delay="100">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item" data-aos="fade-zoom-in" data-aos-offset="0" data-aos-delay="200">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item" data-aos="fade-zoom-in" data-aos-offset="0" data-aos-delay="300">
+            <a href="#resume" class="nav-link">Resume</a>
+          </li>
+          <li class="nav-item" data-aos="fade-zoom-in" data-aos-offset="0" data-aos-delay="400">
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item" data-aos="fade-zoom-in" data-aos-offset="0" data-aos-delay="500">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item" data-aos="fade-zoom-in" data-aos-offset="0" data-aos-delay="600">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Right navbar links -->
+      <ul class="order-1 order-md-3 navbar-nav navbar-no-expand ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" data-widget="fullscreen" role="button" aria-label="Full Screen">
+            <i class="fas fa-expand-arrows-alt"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- /.navbar -->
+
+  <header class="masthead bg-custom-color-2 text-white text-center" id="home">
+    <div class="container d-flex align-items-center flex-column">
+      <!-- Masthead Heading-->
+      <h1 class="masthead-heading text-uppercase mb-4" data-aos="zoom-in">Vince Dale</h1>
+      <!-- Masthead Subheading-->
+      <p class="masthead-subheading font-weight-light mb-0">Software Developer</p>
+    </div>
+  </header>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper m-0">
+
+    <!-- Main content -->
+    <div class="content">
+      <div class="container">
+        <div class="row mb-2 pt-5">
+          <div class="col-sm-6">
+            <h3 class="mx-0 my-3" id="about"> About</h3>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+        
+        <div class="row">
+          <div class="col-md-4 col-sm-12 mb-3 d-flex">
+            <div class="card h-100 w-100" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+              <img class="card-img-top" src="dist/img/profile.webp" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title mb-1">Vince Dale D. Alcantara</h5>
+
+                <p class="card-text">Software Developer</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-8 col-sm-12 mb-3 d-flex">
+            <div class="card h-100 w-100" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+              <div class="card-body">
+                <p class="card-text">A Novice IT professional with solid computer system servicing and web development experience. Continuously making
+                  software development projects and served customers with computer problems during college. Willing to improve skills,
+                  knowledge and abilities to become an experienced and skilled IT Professional. Readiness to take challenges and
+                  responsibilities when needed and has an absolute attention to detail during work. Strong passion for consulting and has
+                  an ability to adapt and cope in a fast pace environment. A hardworking, honest and reliable person with a good approach
+                  when it comes to work and will become a valuable employee to achieve goals of the organization and improve business
+                  productivity.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.row -->
+
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h3 class="mx-0 my-0" id="resume"> Resume</h3>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h4 class="mx-0 my-3"> Experience</h4>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+
+        <div class="timeline">
+          <!-- timeline time label -->
+          <div class="time-label">
+            <span class="bg-custom-color-1" data-aos="zoom-in">September 7, 2022 - Present</span>
+          </div>
+          <!-- /.timeline-label -->
+          <!-- timeline item -->
+          <div>
+            <i class="fas fa-code bg-custom-color-4"></i>
+            <div class="timeline-item" data-aos="fade-left" data-aos-anchor-placement="bottom-bottom">
+              <h3 class="timeline-header"><b>IT Associate / Software Developer</b> - Furukawa Automotive Systems Lima Philippines Inc.</h3>
+
+              <div class="timeline-body">
+                o Complied with IT System Analysis or Revision Request<br>
+                o Created web systems by developing web application projects (design and coding)<br>
+                o Maintained and improved all working web applications inside the company such as Kanban and
+                Inventory Systems<br>
+                o Conducted proper planning for 4 newly created web applications and all ongoing system revisions to
+                develop<br>
+                o Analyzed system process flow and provide system timeline<br>
+                o Performed system testing, implementation and deployment of web applications<br>
+                o Compiled all system changes and updates as well as reported system errors<br>
+                o Revised 10 existing web applications<br>
+                o Team Leadership and Mentoring 4 currently employed co-workers<br>
+                o Supported all computers with web application installed in production areas<br>
+                o Applied basic troubleshooting and maintenance to printers, servers, network and client computers<br>
+              </div>
+            </div>
+          </div>
+          <!-- END timeline item -->
+
+          <!-- timeline time label -->
+          <div class="time-label">
+            <span class="bg-custom-color-3" data-aos="zoom-in">February 6, 2022 - May 6, 2022</span>
+          </div>
+          <!-- /.timeline-label -->
+          <!-- timeline item -->
+          <div>
+            <i class="fa fa-table bg-custom-color-1"></i>
+            <div class="timeline-item" data-aos="fade-left" data-aos-anchor-placement="bottom-bottom">
+              <h3 class="timeline-header"><b>Associate Data Analyst Intern</b> - NeoDocto Inc.</h3>
+
+              <div class="timeline-body">
+                o Acquired data from primary or secondary data sources using Web Scrapping<br>
+                o Worked with data from MS Excel for business and information needs<br>
+                o Edited contents from websites that uses Content Management Systems<br>
+              </div>
+            </div>
+          </div>
+          <!-- END timeline item -->
+          <div>
+            <i class="fas fa-clock bg-gray"></i>
+          </div>
+        </div>
+
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h4 class="mx-0 my-3"> Education</h4>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+
+        <div class="timeline">
+          <!-- timeline time label -->
+          <div class="time-label">
+            <span class="bg-custom-color-1" data-aos="zoom-in">2018 - 2022</span>
+          </div>
+          <!-- /.timeline-label -->
+          <!-- timeline item -->
+          <div>
+            <i class="fas fa-university bg-custom-color-4"></i>
+            <div class="timeline-item" data-aos="fade-left" data-aos-anchor-placement="bottom-bottom">
+              <h3 class="timeline-header"><b>Batangas State University JPLPC Malvar Campus</b> - Malvar, Batangas</h3>
+
+              <div class="timeline-body">
+                Bachelor of Science in Information Technology, Major in Business Analytics<br>
+                DOST-SEI RA 7687 scholar<br>
+                Dean’s list (2nd year – 3rd year)<br>
+              </div>
+            </div>
+          </div>
+          <!-- END timeline item -->
+
+          <!-- timeline time label -->
+          <div class="time-label">
+            <span class="bg-custom-color-3" data-aos="zoom-in">2016 - 2018</span>
+          </div>
+          <!-- /.timeline-label -->
+          <!-- timeline item -->
+          <div>
+            <i class="fas fa-school bg-custom-color-1"></i>
+            <div class="timeline-item" data-aos="fade-left" data-aos-anchor-placement="bottom-bottom">
+              <h3 class="timeline-header"><b>Senior High School In Malvar</b> - Malvar, Batangas</h3>
+
+              <div class="timeline-body">
+                Senior High School<br>
+                Science, Technology, Engineering and Mathematics<br>
+              </div>
+            </div>
+          </div>
+          <!-- END timeline item -->
+          <div>
+            <i class="fas fa-clock bg-gray"></i>
+          </div>
+        </div>
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content -->
+
+    <div class="row mb-2">
+      <div class="col-sm-12">
+        <h3 class="mx-0 my-3 d-flex align-items-center justify-content-center" id="projects">Projects</h3>
+      </div><!-- /.col -->
+    </div><!-- /.row -->
+
+    <div class="projects">
+      <div class="content">
+        <div class="container">
+
+          <div class="row justify-content-center row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-3 py-5">
+            <div class="col m-2 d-flex">
+              <div class="card bg-light h-100" data-aos="zoom-in" data-aos-anchor-placement="top-center">
+                <img class="card-img-top" src="dist/img/1.webp" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title mb-2">CARE: Community Assistance And Response System For Municipality Of Malvar</h5>
+      
+                  <p class="card-text">An online web application with mobile application for managing complaints and concerns. A Native PHP project
+                    for back end of web application and online API of mobile application. It has an Android project using Java
+                    programming language to create responsible and online-based mobile application to support user reports and
+                    feedbacks. Using HTML5, CSS3 and JavaScript with JQuery and AJAX for the web interface and behavior of
+                    the admin and office staff side.</p>
+                </div>
+                <div class="card-footer">
+                  <a href="https://github.com/vicento-cares/care-web" target="_blank" class="btn btn-link" aria-label="Community Assistance And Response System For Municipality Of Malvar"><i class="fas fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col m-2 d-flex">
+              <div class="card bg-light h-100" data-aos="zoom-in" data-aos-anchor-placement="top-center">
+                <img class="card-img-top" src="dist/img/2.webp" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title mb-2">FG Packaging Kanban System</h5>
+      
+                  <p class="card-text">A web application for managing FG inventory and request for packaging materials using generated Kanban. It is
+                    also a Native PHP project for back end of web application. Using HTML5, CSS3 and JavaScript with JQuery
+                    and AJAX for the web interface and behavior of both admin and viewer pages.</p>
+                </div>
+                <div class="card-footer">
+                  <a href="https://github.com/vicento-cares/FG-Packaging-Kanban-System" target="_blank" class="btn btn-link" aria-label="FG Packaging Kanban System"><i class="fas fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col m-2 d-flex">
+              <div class="card bg-light h-100" data-aos="zoom-in" data-aos-anchor-placement="top-center">
+                <img class="card-img-top" src="dist/img/3.webp" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title mb-2">Equipment Management System</h5>
+      
+                  <p class="card-text">A web application for managing machine information, documentation and maintenance schedules. A Native PHP
+                    project for back end of web application. Using HTML5, CSS3 and JavaScript with JQuery and AJAX for the web
+                    interface and behavior of all users from involved departments and its public pages.</p>
+                </div>
+                <div class="card-footer">
+                  <a href="https://github.com/vicento-cares/Equipment-Management-System" target="_blank" class="btn btn-link" aria-label="Equipment Management System"><i class="fas fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col m-2 d-flex">
+              <div class="card bg-light h-100" data-aos="zoom-in" data-aos-anchor-placement="top-center">
+                <img class="card-img-top" src="dist/img/4.webp" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title mb-2">Employee Management System</h5>
+      
+                  <p class="card-text">A web application for managing employee information, time in and out, attendances, absences, shuttle allocation,
+                    shift allocation, employee statistics and leave forms. A Native PHP project for back end of web application. Using
+                    HTML5, CSS3 and JavaScript with JQuery and AJAX for the web interface and behavior of all users from
+                    involved departments such as HR and Production.</p>
+                </div>
+                <div class="card-footer">
+                  <a href="https://github.com/vicento-cares/Employee-Management-System" target="_blank" class="btn btn-link" aria-label="Employee Management System"><i class="fas fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col m-2 d-flex">
+              <div class="card bg-light h-100" data-aos="zoom-in" data-aos-anchor-placement="top-center">
+                <img class="card-img-top" src="dist/img/4.webp" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title mb-2">Production Conveyor Analysis Dashboard</h5>
+      
+                  <p class="card-text">A web application for dashboard and data visualization of manpower count per line, accounting efficiency,
+                    production plan, production output, conveyor speed, Andon data, yield and PPM. A Native PHP project for back
+                    end of web application and to all database connections from other systems. Using HTML5, CSS3 and JavaScript
+                    with JQuery and AJAX for the web interface and behavior of all users from Production Line.</p>
+                </div>
+                <div class="card-footer">
+                  <a href="https://github.com/vicento-cares/Production-Conveyor-Analysis-Dashboard" target="_blank" class="btn btn-link" aria-label="Production Conveyor Analysis Dashboard"><i class="fas fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /.row -->
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="container">
+
+        <div class="row mb-2 pt-5">
+          <div class="col-sm-6">
+            <h3 class="mx-0 my-3" id="skills"> Skills</h3>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+
+        <div class="card" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+          <div class="card-body row">
+            <div class="col text-center d-flex align-items-center justify-content-center">
+              <div class="">
+                <h4>Languages</h4>
+                <i class="fab fa-html5 fa-4x p-2" data-aos="fade-zoom-in" data-aos-offset="0" data-aos-delay="100"></i>
+                <i class="fab fa-css3 fa-4x p-2" data-aos="fade-zoom-in" data-aos-offset="0" data-aos-delay="200"></i>
+                <i class="fab fa-js fa-4x p-2" data-aos="fade-zoom-in" data-aos-offset="0" data-aos-delay="300"></i>
+                <i class="fab fa-php fa-4x p-2" data-aos="fade-zoom-in" data-aos-offset="0" data-aos-delay="400"></i>
+                <i class="fab fa-python fa-4x p-2" data-aos="fade-zoom-in" data-aos-offset="0" data-aos-delay="500"></i>
+                <i class="fab fa-java fa-4x p-2" data-aos="fade-zoom-in" data-aos-offset="0" data-aos-delay="600"></i>
+                <h4 class="mt-2">Libraries and Frameworks</h4>
+                <i class="fab fa-bootstrap fa-4x p-2" data-aos="fade-zoom-in" data-aos-offset="0" data-aos-delay="700"></i>
+                <i class="fab fa-angular fa-4x p-2" data-aos="fade-zoom-in" data-aos-offset="0" data-aos-delay="800"></i>
+                <i class="fab fa-laravel fa-4x p-2" data-aos="fade-zoom-in" data-aos-offset="0" data-aos-delay="900"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h3 class="mx-0 my-3" id="contact"> Contact</h3>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+
+        <div class="card">
+          <div class="card-body row">
+            <div class="col-5 text-center d-flex align-items-center justify-content-center" data-aos="fade-right" data-aos-anchor-placement="center-bottom">
+              <div class="text-break">
+                <h4>Contact Info</h4>
+                <p class="mb-5">vincedalealcantara@gmail.com<br>
+                  125 San Pioquinto, Malvar, Batangas, Philippines 4233<br>
+                  Phone Numbers:<br>
+                  +63 976 539 7528<br>
+                  +63 945 882 2422
+                </p>
+              </div>
+            </div>
+            <div class="col-7" data-aos="fade-left" data-aos-anchor-placement="center-bottom">
+              <div class="form-group">
+                <label for="inputName">Name</label>
+                <input type="text" id="inputName" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="inputEmail">E-Mail</label>
+                <input type="email" id="inputEmail" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="inputSubject">Subject</label>
+                <input type="text" id="inputSubject" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="inputMessage">Message</label>
+                <textarea id="inputMessage" class="form-control" rows="4"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" class="btn btn-custom-color-4" value="Send message">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row m-5"></div><!-- /.row -->
+
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+  <!-- Main Footer -->
+  <footer class="main-footer border-top-0 bg-custom-color-3">
+    <!-- Center -->
+    <div class="text-center d-flex align-items-center justify-content-center mb-1">
+      <a href="" target="_blank" class="btn btn-link" data-aos="zoom-in" data-aos-offset="0" data-aos-delay="100" aria-label="Facebook Account"><i class="fab fa-facebook fa-2x p-1"></i></a>
+      <a href="" target="_blank" class="btn btn-link" data-aos="zoom-in" data-aos-offset="0" data-aos-delay="200" aria-label="LinkedIn Account"><i class="fab fa-linkedin fa-2x p-1"></i></a>
+      <a href="" target="_blank" class="btn btn-link" data-aos="zoom-in" data-aos-offset="0" data-aos-delay="300" aria-label="Github Account"><i class="fab fa-github fa-2x p-1"></i></a>
+    </div>
+    <div class="text-center">
+      <strong>Copyright &copy; 2024 Vince Dale</strong> All rights reserved.
+    </div>
+  </footer>
+</div>
+<!-- ./wrapper -->
+
+<!-- REQUIRED SCRIPTS -->
+
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.min.js"></script>
+<!-- AOS -->
+<script src="plugins/aos/js/aos.min.js"></script>
+
+<script>
+  AOS.init();
+</script>
+
+</body>
+
+</html>
