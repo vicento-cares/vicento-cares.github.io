@@ -459,25 +459,27 @@
               </div>
             </div>
             <div class="col-7" data-aos="fade-left" data-aos-anchor-placement="center-bottom">
-              <div class="form-group">
-                <label for="inputName">Name</label>
-                <input type="text" id="inputName" class="form-control">
-              </div>
-              <div class="form-group">
-                <label for="inputEmail">E-Mail</label>
-                <input type="email" id="inputEmail" class="form-control">
-              </div>
-              <div class="form-group">
-                <label for="inputSubject">Subject</label>
-                <input type="text" id="inputSubject" class="form-control">
-              </div>
-              <div class="form-group">
-                <label for="inputMessage">Message</label>
-                <textarea id="inputMessage" class="form-control" rows="4"></textarea>
-              </div>
-              <div class="form-group">
-                <input type="submit" class="btn btn-custom-color-4" value="Send message">
-              </div>
+              <form action="mailto:vincedalealcantara@gmail.com" method="get" enctype="text/plain">
+                <div class="form-group">
+                  <label for="inputName">Name</label>
+                  <input type="text" name="name" id="inputName" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="inputEmail">E-Mail</label>
+                  <input type="email" name="mail" id="inputEmail" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="inputSubject">Subject</label>
+                  <input type="text" name="subject" id="inputSubject" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="inputMessage">Message</label>
+                  <textarea name="body" id="inputMessage" class="form-control" rows="4"></textarea>
+                </div>
+                <div class="form-group">
+                  <input type="submit" class="btn btn-custom-color-4" value="Send message">
+                </div>
+              </form>
             </div>
           </div>
         </div>
